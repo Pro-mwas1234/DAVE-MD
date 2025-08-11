@@ -1,3 +1,18 @@
+///DON'T COPY WITHOUT PERMISSION//
+/**
+ * 𝐃𝐀𝐕𝐄-𝐌𝐃 - WhatsApp Bot
+ * 
+ * Copyright (c) 2025 giftdee 
+ * Licensed under the MIT License
+ * 
+ * ⚠️ DO NOT REMOVE THIS HEADER ⚠️
+ * 
+ * - Modifying, rebranding, or redistributing without proper credit is strictly prohibited.
+ * - Cloning this project without visible author attribution may result in takedown.
+ * - Author: DAVE-MD | GitHub: https://github.com/giftdee/DAVE-MD
+ * 
+ * Any fork must retain visible credits in both code and output.
+ */
 const settings = require('./settings');
 require('./config.js');
 const { isBanned } = require('./lib/isBanned');
@@ -101,7 +116,7 @@ const videoCommand = require('./commands/video');
 global.packname = settings.packname;
 global.author = settings.author;
 global.channelLink = "https://whatsapp.com/channel/0029VbApvFQ2Jl84lhONkc3k";
-global.ytch = "supremLord";
+global.ytch = "Gifteddave";
 
 // Add this near the top of main.js with other global configurations
 const channelInfo = {
@@ -868,8 +883,8 @@ async function handleGroupParticipantUpdate(sock, update) {
                         forwardingScore: 1,
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
-                            newsletterJid: channelId,
-                            newsletterName: 'June MD',
+                            newsletterJid: '120363400480173280@newsletter',
+                            newsletterName: '𝐃𝐀𝐕𝐄-𝐌𝐃',
                             serverMessageId: -1
                         }
                     }
@@ -907,8 +922,8 @@ async function handleGroupParticipantUpdate(sock, update) {
                         forwardingScore: 1,
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
-                            newsletterJid: channelId,
-                            newsletterName: 'June MD',
+                            newsletterJid: '120363400480173280@newsletter',
+                            newsletterName: '𝐃𝐀𝐕𝐄-𝐌𝐃',
                             serverMessageId: -1
                         }
                     }
